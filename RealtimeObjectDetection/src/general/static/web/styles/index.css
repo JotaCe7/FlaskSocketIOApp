@@ -1,0 +1,23 @@
+.btnstream {
+  background-color: aqua;
+  border-radius: 5px;
+}
+
+
+.container {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  margin: 30px;
+}
+
+#videoElement {
+  position: absolute;
+  opacity: 0;
+  background: #0057e3;
+}
+
+#photo {
+  z-index: 9;
+  background: #009938;
+}

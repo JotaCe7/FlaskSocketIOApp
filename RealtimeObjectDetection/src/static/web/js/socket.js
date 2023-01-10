@@ -1,5 +1,6 @@
 let socket = NaN
 let socketID = NaN
+var stream_container = document.getElementById("photo");
 
 function connectSocket() {
   /* Connects to socket and registers callback functioms */
@@ -15,7 +16,6 @@ function connectSocket() {
   })
 
   socket.on('response_back', function(){
-    var stream_container = document.getElementById("photo");
     //source = `${window.static_folder}predictions/output_img.jpeg`;
     source = route_display_stream();
     console.log(source)

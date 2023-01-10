@@ -1,2 +1,4 @@
 predictions/
 __pycache__/
+*.pt
+*.tgz

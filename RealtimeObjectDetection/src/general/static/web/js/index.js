@@ -16,7 +16,7 @@ document.querySelector("#stop").addEventListener('click', async (e) => {
 });
 
 
-const FPS = 1;
+const FPS = 2;
 setInterval(() => {
   /* Updates output frame */
   var resizedCanvas = document.createElement("canvas");
